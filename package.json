@@ -2,6 +2,10 @@
   "name": "@flypeng/configs",
   "version": "0.0.0",
   "description": "Personal configuration package of ESLint Configs | Prettier Configs",
+  "scripts": {
+    "publish": "pnpm ci:publish",
+    "prepare": "husky install"
+  },
   "keywords": [
     "Config",
     "ESLint Configs",
@@ -14,5 +18,10 @@
   },
   "bugs": "https://github.com/flingyp/configs/issues",
   "author": "FlyPeng",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.24.4",
+    "husky": "^7.0.0",
+    "lint-staged": "^13.0.3"
+  }
 }
