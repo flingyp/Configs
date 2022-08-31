@@ -21,6 +21,7 @@
   "author": "FlyPeng",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/changelog-github": "^0.4.6",
     "@changesets/cli": "^2.24.4",
     "husky": "^7.0.0",
     "lint-staged": "^13.0.3"
