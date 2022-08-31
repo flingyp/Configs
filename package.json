@@ -4,7 +4,8 @@
   "description": "Personal configuration package of ESLint Configs | Prettier Configs",
   "scripts": {
     "publish": "pnpm ci:publish",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "changeset": "changeset"
   },
   "keywords": [
     "Config",
