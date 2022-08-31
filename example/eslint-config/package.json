@@ -1,0 +1,11 @@
+{
+  "name": "eslint-config-example",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint --fix ."
+  },
+  "devDependencies": {
+    "@flypeng/eslint-config": "workspace:^1.0.0",
+    "eslint": "^8.23.0"
+  }
+}
