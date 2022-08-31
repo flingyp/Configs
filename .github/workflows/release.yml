@@ -1,11 +1,12 @@
-name: Changesets
+name: changesets-publish
 on:
   push:
     branches:
       - main
-env:
-  CI: true
-  PNPM_CACHE_FOLDER: .pnpm-store
+# env:
+#   CI: true
+#   PNPM_CACHE_FOLDER: .pnpm-store
+
 jobs:
   version:
     timeout-minutes: 15
