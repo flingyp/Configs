@@ -1,7 +1,7 @@
-import { sumNum } from "./sum";
+import { sumNum } from './sum'
 
-console.log(sumNum(2, 4));
+console.log(sumNum(2, 4))
 
 if (false) {
-  console.log(22222222);
+  console.log(22222222)
 }
