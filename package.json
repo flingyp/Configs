@@ -6,14 +6,12 @@
     "publish": "pnpm ci:publish",
     "prepare": "husky install",
     "changeset": "changeset",
-    "lint:fix": "eslint --fix packages/**/*.{js,ts,vue,jsx,tsx}",
     "lint:prettier": "prettier --write packages/**/*.{js,ts,vue,jsx,tsx,scss,css}",
     "commit": "git-cz"
   },
   "lint-staged": {
     "packages/**/*.{js,jsx,ts,tsx,json}": [
-      "prettier --write",
-      "eslint --cache --fix"
+      "prettier --write"
     ]
   },
   "config": {
@@ -41,11 +39,6 @@
     "@commitlint/config-conventional": "^17.1.0",
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.23.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-prettier": "^4.2.1",
     "husky": "^7.0.0",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
