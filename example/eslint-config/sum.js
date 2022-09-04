@@ -1,4 +1,4 @@
-export const sumNum = (a, b) => a + b;
+export const sumNum = (a, b) => a + b
 
 console.log('Log a debug level message.')
 console.warn('Log a warn level message.')
