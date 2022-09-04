@@ -1,5 +1,11 @@
 # @flypeng/eslint-config
 
+## 1.1.4
+
+### Patch Changes
+
+- [`4daa289`](https://github.com/flingyp/Configs/commit/4daa2895177adf9abc9c76f7f120dc7c7c10f8bb) Thanks [@flingyp](https://github.com/flingyp)! - 测试
+
 ## 1.1.2
 
 ### Patch Changes
